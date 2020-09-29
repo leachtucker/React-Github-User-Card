@@ -1,0 +1,16 @@
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin-left: 1%;
+    padding: 0% 2%;
+}

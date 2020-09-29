@@ -20,7 +20,7 @@ class UserCard extends React.Component {
                 <div className='bio-container'>
                     <span>{this.props.userData.bio}</span>
                 </div>
-                <div>
+                <div className='streak-container'>
                     <img src={`http://ghchart.rshah.org/${this.props.userData.login}`} alt="2016rshah's Github chart" />
                 </div>
             </div>

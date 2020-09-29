@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 .usercard {
     width: 80%;
     margin: 0 auto;
-    border: 2px solid gainsboro;
+    border: 1px solid gainsboro;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,25 +28,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .avatar-img {
     border-radius: 50%;
-    width: 25%;
+    width: 35%;
     margin-bottom: 2%;
 }
 
-.follow-container {
-    width: 20%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.repo-container {
-
-}
-
 .bio-container {
-    margin: 2% 0;
+    margin: 1% 0;
     padding: 1%;
     max-width: 70%;
     border: 2px solid gainsboro;
     border-radius: 5px;
+}
+
+.streak-container {
+    margin: 2% 0;
 }
