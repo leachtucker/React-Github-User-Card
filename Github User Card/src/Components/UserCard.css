@@ -1,0 +1,52 @@
+/* CSS Reset */
+
+* {
+    font-size: 100%;
+    font: inherit;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+/* Styling */
+
+.usercard {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 0;
+}
+
+.avatar-img {
+    border-radius: 50%;
+    width: 25%;
+    margin-bottom: 2%;
+}
+
+.follow-container {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.repo-container {
+
+}
+
+.bio-container {
+    margin: 2% 0;
+    padding: 1%;
+    max-width: 70%;
+    border: 2px solid gainsboro;
+    border-radius: 5px;
+}
